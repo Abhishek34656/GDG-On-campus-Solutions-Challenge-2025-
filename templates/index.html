@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Video Generator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>AI Video Generator</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h2>Transform Your Ideas into Stunning Videos</h2>
+                <p>Leverage the power of AI to create high-quality, customizable videos in minutes.</p>
+                <a href="#form-section" class="cta-button">Get Started</a>
+            </div>
+        </section>
+
+        <!-- Form Section -->
+        <section id="form-section" class="form-section">
+            <h2>Create Your Video</h2>
+            <form id="videoForm">
+                <label for="topic">Enter a Topic:</label>
+                <input type="text" id="topic" name="topic" placeholder="e.g., Climate Change" required>
+                <button type="submit" class="generate-button">Generate Video</button>
+            </form>
+        </section>
+
+        <!-- Video Preview Section -->
+        <section id="preview" class="preview-section">
+            <h2>Video Preview</h2>
+            <video id="videoPreview" controls></video>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <h2>Why Choose Us?</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI-powered</h3>
+                    <p>Generate videos using cutting-edge AI technology that adapts to your needs.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-edit"></i>
+                    <h3>Customizable</h3>
+                    <p>Tailor videos to your specific topics and preferences with ease.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-video"></i>
+                    <h3>High Quality</h3>
+                    <p>Enjoy crisp, professional-grade video previews that stand out.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 AI Video Generator | <a href="#contact">Contact Us</a></p>
+    </footer>
+    <script src="/static/script.js"></script>
+</body>
+</html>
